@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    background-color: white;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.6);
+    padding: 15px;
+}
+
+.head-text{
+flex-basis: 30%;
+}
+.head-text h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+.header-menu{
+flex-basis: 70%;
+}
+.header-menu ul{display: flex;
+justify-content: center;
+}
+.header-menu ul li{list-style: none;
+    margin: 0px 50px;
+}
+
+.header-menu ul li a{
+font-size: 16px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+color:white;
+background-color: rgb(152, 75, 224);
+border-radius: 10px;
+padding: 10px 30px;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+transition: .5s;
+}
+
+.header-menu ul li:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+.header-menu ul li i{
+
+background-color: slateblue;
+padding: 10px 20px;
+border-radius: 10px;
+color: white;
+cursor: pointer;
+}
+
+
+/*-----------CONTENT---------------*/
+
+.content{
+margin-top: 80px;
+text-align: center;
+}
+.content h1{font-size: 40px;
+    color: gray;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.border{
+    height:4px;
+    width: 100px;
+    background-color: gray;
+display: block;
+margin: auto;
+margin-top: 30px;
+}
+
+
+.post{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+h2#sub-title {
+    margin-top: 80px;
+}
+#circle{
+    color:rgb(152, 75, 224);
+}
+
+
+/*----------pic-post---------*/
+h2#sub-title {
+    margin-top: 80px;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+
+.pic-post{
+    margin: 80px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right{
+    margin-top: -120px;
+    
+}
+.right h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+    margin-top: 20px;
+}
+
+.left h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.left img{
+    margin-top: 10px;
+}
+.right img{
+    margin-top: 10px;
+}
+
+.details{
+    margin-top: 15px;
+}
+.details ul{
+
+}
+.details ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 30px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+#check{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+
+
+/*---------code----------------*/
+
+
+.code-section{
+    
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 30px;
+        margin-bottom: 60px;
+ 
+}
+
+.html{
+    
+  height: 380px;
+        max-width: 660px;
+        width: 100%;
+        margin: 55px 0;
+    
+
+}
+.css{
+    
+        height: 380px;
+        max-width: 660px;
+        width: 100%;
+        margin: 55px 0;
+    
+}
+
+
+.name h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #265df2;
+    margin: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#htmlcode{
+    
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    
+    border: 1px solid #265df2;
+    border-radius: 8px;
+    background: #e7edfe;
+}
+#htmlbtn{
+    height: 45px;
+    width: 155px;
+    color: #fff;
+    background: #265df2;
+    
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+#csscode{ height: 100%;
+    width: 100%;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    
+    border: 1px solid #265df2;
+    border-radius: 8px;
+    background: #e7edfe;
+
+}
+
+#cssbtn{height: 45px;
+    width: 155px;
+    color: #fff;
+    background: #265df2;
+    
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+}
+
+.code-section h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
